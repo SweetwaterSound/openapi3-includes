@@ -1,11 +1,11 @@
 components:
-    schemas:
-      Page: 
-        type: object
-        properties:
-          has_next: 
-            type: boolean
-            example: true
-          has_prev:
-            type: boolean
-             example: false
+  schemas:
+    Page: 
+      type: object
+      properties:
+        has_next: 
+          type: boolean
+          example: true
+        has_prev:
+          type: boolean
+          example: false
