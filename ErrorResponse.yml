@@ -5,4 +5,4 @@ components:
             properties: {data: {type: array, items: {$ref: '#/components/schemas/ErrorMessage'}}}
         ErrorMessage:
             type: object
-            properties: {message: {type: string, example: 'Server Error'}, context: {type: object}}
+            properties: {message: {type: string, example: 'Server had an Error'}, context: {type: object}}
