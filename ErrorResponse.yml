@@ -1,13 +1,13 @@
 components:
   schemas:
     ErrorMessage:
-      type: object
-       properties:
+      type: "object
+      properties:
         message:
-          type: string
-          example: 'Server Error'
-        context:
-          type: object
+        type: string
+        example: 'Server Error'
+      context: 
+        type: object"
     ErrorResponse:
       type: object
       properties:
