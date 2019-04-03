@@ -6,6 +6,7 @@ components:
         timestamp:
           type: string
           example: '2019-04-02T18:32:16.340Z'
+          
     Collection:
       type: object
       properties:
@@ -14,5 +15,24 @@ components:
           example: '2019-04-02T18:32:16.340Z'
         page:
           type: object
+    
+    Error:
+      type: object
+      properties
+        timestamp:
+          type: string
+          example: '2019-04-02T18:32:16.340Z'
+        status:
+          type: integer
+          example: 500
       
+    Validation:
+      type: object
+      properties
+        timestamp:
+          type: string
+          example: '2019-04-02T18:32:16.340Z'
+        status:
+          type: integer
+          example: 422
       
