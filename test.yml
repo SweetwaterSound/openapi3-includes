@@ -1,8 +1,6 @@
-components:
-  schemas:
-    Meta:
-      type: object
-      properties:
-        timestamp:
-          type: string
-          example: '2019-04-02T18:32:16.340Z'
+Meta:
+  type: object
+  properties:
+    timestamp:
+      type: string
+      example: '2019-04-02T18:32:16.340Z'
