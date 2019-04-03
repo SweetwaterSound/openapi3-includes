@@ -28,7 +28,7 @@ components:
    
     Error:
       type: object
-      properties
+      properties:
         timestamp:
           type: string
           example: '2019-04-02T18:32:16.340Z'
@@ -38,7 +38,7 @@ components:
       
     Validation:
       type: object
-      properties
+      properties:
         timestamp:
           type: string
           example: '2019-04-02T18:32:16.340Z'
