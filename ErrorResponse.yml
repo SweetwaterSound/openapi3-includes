@@ -2,7 +2,25 @@ components:
     schemas:
         ErrorResponse:
             type: object
-            properties: {data: {type: array, items: {$ref: '#/components/schemas/ErrorMessage'}}}
+            properties: 
+                data:
+                    type: array
+                    items:
+                        $ref: '#/components/schemas/ErrorMessage'
+                meta:
+                    type: object
+                    properties:
+                        timestamp:
+                            type: string
+                            example: '2019-04-02T18:32:16.340Z'
+                        status:
+                            type: integer
+                            example: 500
         ErrorMessage:
             type: object
-            properties: {message: {type: string, example: 'Server had an Error'}, context: {type: object}}
+            properties: 
+                message: 
+                    type: string
+                    example: 'Server had an Error'
+                context:
+                    type: object
