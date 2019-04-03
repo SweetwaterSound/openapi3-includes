@@ -6,8 +6,8 @@ components:
         message:
           type: string
           example: 'Server Error'
-      context: 
-        type: object
+        context: 
+          type: object
     ErrorResponse:
       type: object
       properties:
