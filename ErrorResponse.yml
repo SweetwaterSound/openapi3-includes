@@ -1,0 +1,17 @@
+components:
+  schemas:
+    ErrorMessage:
+      type: object
+       properties:
+        message:
+          type: string
+          example: 'Server Error'
+        context:
+          type: object
+    ErrorResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: '#/components/schemas/ErrorMessage'
