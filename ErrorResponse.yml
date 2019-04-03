@@ -8,14 +8,7 @@ components:
                     items:
                         $ref: '#/components/schemas/ErrorMessage'
                 meta:
-                    type: object
-                    properties:
-                        timestamp:
-                            type: string
-                            example: '2019-04-02T18:32:16.340Z'
-                        status:
-                            type: integer
-                            example: 500
+                    $ref: 'https://raw.githubusercontent.com/SweetwaterSound/openapi3-includes/master/Meta.yml#/components/schemas/Error'
         ErrorMessage:
             type: object
             properties: 
