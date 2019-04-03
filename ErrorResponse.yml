@@ -7,7 +7,7 @@ components:
         type: string
         example: 'Server Error'
       context: 
-        type: object"
+        type: object
     ErrorResponse:
       type: object
       properties:
